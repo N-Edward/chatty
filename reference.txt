@@ -1,0 +1,8 @@
+https://codewithstein.com/django-realtime-chat-app-tutorial-simple-django-tutorial-with-channels-and-redis/
+
+chat app using 
+asgi file
+daphne
+channels
+redis caching - optional
+storing messages in db sqllite
