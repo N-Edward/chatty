@@ -32,6 +32,7 @@ class ChatConsumer(AsyncJsonWebsocketConsumer):
         username = data['username']
         room = data['room']
         
+        # works with line 59
         await self.save_message(username, room, message)
         #send message to room group
         await self.channel_layer.group_send(
